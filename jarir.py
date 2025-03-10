@@ -13,10 +13,10 @@ login.click()
 
 # email = input("Please Enter Already Existing Email: ")
 email_input = driver.find_element(By.ID,value="loginform-email")
-email_input.send_keys("akaz.reading@gmail.com")
+email_input.send_keys("")
 
 password_input = driver.find_element(By.ID,value="loginform-password")
-password_input.send_keys("JAR!@iS1A2B3C4d")
+password_input.send_keys("")
 password_input.send_keys(Keys.ENTER)
 
 time.sleep(3)
